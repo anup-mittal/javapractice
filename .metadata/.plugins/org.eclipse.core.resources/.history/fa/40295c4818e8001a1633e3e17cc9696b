@@ -1,0 +1,8 @@
+package simple2;
+
+public class school {
+	public void schoolname()
+	{
+		System.out.println("aggarwal");
+	}
+}

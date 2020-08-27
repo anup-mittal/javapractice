@@ -770,3 +770,110 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE From: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
 !SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 08:57:48.358
 !MESSAGE To: org.eclipse.egit.feature.group [5.8.1,5.9.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-08-27 09:09:44.475
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2020-08-27 09:09:44.475
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.475
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.475
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.475
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-08-27 09:09:44.475
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.475
+!MESSAGE Software being installed: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.475
+!MESSAGE Missing requirement: Git integration for Eclipse 5.8.1.202007141445-r (org.eclipse.egit.feature.group 5.8.1.202007141445-r) requires 'org.eclipse.core.runtime [3.12.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-08-27 09:09:44.475
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.475
+!MESSAGE From: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.475
+!MESSAGE To: org.eclipse.egit.feature.group [5.8.1,5.9.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-08-27 09:09:44.527
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2020-08-27 09:09:44.527
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.527
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.527
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.527
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-08-27 09:09:44.527
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.527
+!MESSAGE Software being installed: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.527
+!MESSAGE Missing requirement: Git integration for Eclipse 5.8.1.202007141445-r (org.eclipse.egit.feature.group 5.8.1.202007141445-r) requires 'org.eclipse.core.runtime [3.12.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-08-27 09:09:44.527
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.527
+!MESSAGE From: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.527
+!MESSAGE To: org.eclipse.egit.feature.group [5.8.1,5.9.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-08-27 09:09:44.591
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2020-08-27 09:09:44.591
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.591
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.591
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.591
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-08-27 09:09:44.591
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.591
+!MESSAGE Software being installed: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.591
+!MESSAGE Missing requirement: Git integration for Eclipse 5.8.1.202007141445-r (org.eclipse.egit.feature.group 5.8.1.202007141445-r) requires 'org.eclipse.core.runtime [3.12.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-08-27 09:09:44.591
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.591
+!MESSAGE From: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.591
+!MESSAGE To: org.eclipse.egit.feature.group [5.8.1,5.9.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-08-27 09:09:44.623
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2020-08-27 09:09:44.623
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.623
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.623
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-08-27 09:09:44.623
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-08-27 09:09:44.623
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.623
+!MESSAGE Software being installed: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.623
+!MESSAGE Missing requirement: Git integration for Eclipse 5.8.1.202007141445-r (org.eclipse.egit.feature.group 5.8.1.202007141445-r) requires 'org.eclipse.core.runtime [3.12.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-08-27 09:09:44.623
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.623
+!MESSAGE From: Git integration for Eclipse - Source Code 5.8.1.202007141445-r (org.eclipse.egit.source.feature.group 5.8.1.202007141445-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-08-27 09:09:44.623
+!MESSAGE To: org.eclipse.egit.feature.group [5.8.1,5.9.0)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-27 09:22:03.489
+!MESSAGE Failed to open search index.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-27 09:22:07.015
+!MESSAGE 'remote-models (http://download.eclipse.org/recommenders/models/kepler/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:pom:0.0.0'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-27 09:22:09.099
+!MESSAGE 'remote-models (http://download.eclipse.org/recommenders/models/kepler/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-27 09:22:09.122
+!MESSAGE Updating index cancelled.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-27 09:22:09.138
+!MESSAGE Failed to open search index.

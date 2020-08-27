@@ -1,0 +1,8 @@
+package simple2;
+
+public class MPClass2 {
+	public void showOutput()
+	{
+		System.out.println("I am in Class 2");
+	}
+}
