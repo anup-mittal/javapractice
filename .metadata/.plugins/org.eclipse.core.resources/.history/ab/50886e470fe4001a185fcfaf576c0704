@@ -1,0 +1,12 @@
+package amanpackage;
+
+public class AmanMain {
+	public static void main (String[] args)
+	{
+		Patterns p=new Patterns();
+		p.square('i','j');
+		Patterns p=new Pattern();
+		p.triangle('i','j');
+	}
+
+}

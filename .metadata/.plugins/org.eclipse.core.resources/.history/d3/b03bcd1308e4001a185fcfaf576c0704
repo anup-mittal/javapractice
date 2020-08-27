@@ -1,0 +1,8 @@
+package amanpackage;
+
+public class AmanMain {
+	public static void main (String[] args);
+	{	
+	}
+
+}

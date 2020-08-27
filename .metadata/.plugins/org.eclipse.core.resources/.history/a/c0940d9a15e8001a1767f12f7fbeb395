@@ -1,0 +1,10 @@
+package simple;
+
+public class school {
+	course c = new course();
+	public course schoolname()
+	{
+		System.out.println("dav");
+		return this.c;
+	}
+}

@@ -1,0 +1,19 @@
+package amanpackage;
+
+public class Patterns {
+	public void square(int i,int j)
+	{
+		for(i=0;i<=4;i++)
+		{
+			for(j=0;j<=4;j++)
+			{
+				if(j>5)
+				    printf("*");
+				else
+					printf(" ");		
+			}
+			printf("/n");
+		}
+	}
+
+}

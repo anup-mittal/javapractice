@@ -1,0 +1,13 @@
+package amanpackage;
+
+public class AmanMain {
+	public static void main (String[] args)
+	{
+		System.out.println("hello world!");
+		student s=new student();
+		s.attendence('a');
+		Patterns p = new patterns();
+		p.square('i', 'j');
+	}
+
+}

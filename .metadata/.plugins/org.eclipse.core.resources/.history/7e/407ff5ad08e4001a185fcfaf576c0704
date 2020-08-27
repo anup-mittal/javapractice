@@ -1,0 +1,6 @@
+package amanpackage;
+
+public class student {
+	public void attendence(char a)
+
+}

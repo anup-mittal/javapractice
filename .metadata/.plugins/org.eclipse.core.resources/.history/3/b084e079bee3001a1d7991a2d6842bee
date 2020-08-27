@@ -1,0 +1,7 @@
+package amanpackage;
+
+public class amanclass {
+	public int x;
+	System.out.println("Hello World!");
+
+}

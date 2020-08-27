@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="simple.HelloWorld"/>
+<fullyQualifiedTypeName name="medium.Palindrome"/>
+<fullyQualifiedTypeName name="simple.VariableScope"/>
+<fullyQualifiedTypeName name="simple.MyInteger"/>
+<fullyQualifiedTypeName name="amanpackage.Patterns"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="simple.EnhancedForLoop"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.cmdline.Transform"/>
+<fullyQualifiedTypeName name="simple.MPClass2"/>
+<fullyQualifiedTypeName name="simple.MPClass1"/>
+<fullyQualifiedTypeName name="simple.MultiPipe"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.sym"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="simple.student"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

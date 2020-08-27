@@ -1,0 +1,10 @@
+package amanpackage;
+
+public class Student {
+	public int rollno,phonenumber;
+	public char name,cource;
+	public void attendence (char a)
+	{
+		System.out.println(a);
+	}
+}
