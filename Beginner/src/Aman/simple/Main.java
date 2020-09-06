@@ -69,7 +69,7 @@ public class Main {
 
 			Integer a=10;
 			Integer bb=20;
-			Integer c =a+bb;
+			Integer c = a + bb;
 			System.out.printf("Sum of %d and %d is %d", a,bb,c);
 			System.out.println();
 			System.out.print("Sum of " + a + " and " + bb + " is " + c);
