@@ -4,6 +4,8 @@
 package Aman.simple;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
@@ -152,9 +154,38 @@ public class Main {
 		    break;
 		case 9:
 			RegexMatches rm = new RegexMatches();
-			String ptr="^[+]{0,1}[1-9]{0,3}[1-9]{3}[0-9]{3}[0-9]{4}$";
-			String data="+918527880902";
+			String ptr="^[+]{0,1}[1-9]{0,3} [1-9]{3}[0-9]{3}[0-9]{4}$";
+			String data="+91 8527880902";
 			rm.execute(data, ptr);
+			break;
+		case 10:
+			CopyFile cf = new CopyFile();
+			cf.execute();
+			System.out.println("File Copy Completed.");
+			break;
+		case 11:
+			Division dv = new Division();
+			try{
+				FileInputStream in = new FileInputStream("c:/test/input1.txt");
+			}
+			catch(FileNotFoundException e)
+			{
+				System.out.println("file does not exist on this system");
+			}
+
+			try {
+				dv.divide(10, 0);
+			}
+			catch(ArithmeticException e)
+			{
+				System.out.println("Arithmetic exception block executed");
+				System.out.println(e);
+			}
+			finally
+			{
+				System.out.println("I am getting executed always");
+			}
+			
 			break;
 		}
 
