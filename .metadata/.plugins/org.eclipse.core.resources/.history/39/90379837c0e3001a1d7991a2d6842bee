@@ -1,9 +1,0 @@
-package amanpackage;
-
-public class amanclass{
-	public static void main(String[] args)
-	{
-		Student s = new Student();
-		s.attendence('p');
-	}
-}

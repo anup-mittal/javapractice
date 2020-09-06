@@ -1,9 +1,0 @@
-package Aman;
-
-public class course {
-	public void courcename()
-	{
-		System.out.println("BCA");
-	}
-
-}

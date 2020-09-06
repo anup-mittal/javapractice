@@ -1,9 +1,0 @@
-package simple;
-
-public class school {
-	course c = new course();
-	public course cousename()
-	{
-		return this.c;
-	}
-}

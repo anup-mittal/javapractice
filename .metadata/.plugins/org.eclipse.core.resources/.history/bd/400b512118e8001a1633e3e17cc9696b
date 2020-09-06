@@ -1,8 +1,0 @@
-package Aman;
-
-public class school {
-	public void schoolname()
-	{
-		System.out.println("aggarwal");
-	}
-}

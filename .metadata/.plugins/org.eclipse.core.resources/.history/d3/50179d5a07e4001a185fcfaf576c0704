@@ -1,9 +1,0 @@
-package amanpackage;
-
-public class Student {
-	public void attendence(char a)
-	{
-		System.out.println(a);
-	}
-
-}

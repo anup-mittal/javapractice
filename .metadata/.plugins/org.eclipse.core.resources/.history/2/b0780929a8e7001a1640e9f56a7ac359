@@ -1,8 +1,0 @@
-package simple;
-
-public class MultiPipe {
-	public void showExample()
-	{
-		System.out.println("Hello");
-	}
-}

@@ -1,6 +1,0 @@
-package amanpackage;
-
-public class amanclass {
-	system.out.println("hello world");
-
-}

@@ -3,6 +3,9 @@
  */
 package Aman.simple;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 import Aman.medium.Palindrome;
@@ -15,7 +18,7 @@ public class Main {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		int choice;
 		Scanner sc = new Scanner(System.in);
@@ -96,12 +99,38 @@ public class Main {
 			}
 			break;
 		case 6:
-			school s11=new school();
-			s11.schoolname();
-			course c1=new course();
-			c1.courcename();
-			student st=new student();
-			st.studentname();
+			School school = new School();
+			
+			System.out.print("School Name: ");
+			school.setSchoolName(sc.next());
+			for(int ii =0; ii<school.courses.length; ii++)
+			{
+				school.courses[ii] = new Course();
+				System.out.print("Course Name: ");
+				school.courses[ii].setCourseName(sc.next());
+
+				for(int jj=0; jj<school.courses[ii].students.length;jj++)
+				{
+					school.courses[ii].students[jj] = new Student();
+					System.out.print("Student Name: ");
+					school.courses[ii].students[jj].setName(sc.next());
+					System.out.print("Student Marks: ");
+					school.courses[ii].students[jj].setMarks(sc.nextInt());
+				}
+			}
+
+			System.out.println("School: " + school.getSchoolName());
+			for(Course crs : school.courses)
+			{
+				System.out.println("Course Name: " + crs.getCourseName());
+				for(Student std : crs.students)
+				{
+					System.out.println("Student Name: " + std.getName());
+					System.out.println("Student Marks: " + std.getMarks());
+				}
+			}
+			
+
 			break;
 		case 7:
 			Date d = new Date();
@@ -110,18 +139,24 @@ public class Main {
 			System.out.println(d2);
 			System.out.println("Hello from Git");
 			break;
+		case 8:	
+		    VariableScope vs=new VariableScope();
+		    vs.setX(100);
+		    vs.y=200;
+		    vs.func1();
+		    VariableScope vs2 = new VariableScope();
+		    vs2.setX(500);
+		    vs2.func1();
+		    VariableScope.y=1000;
+		    vs2.func1();
+		    break;
+		case 9:
+			RegexMatches rm = new RegexMatches();
+			String ptr="^[+]{0,1}[1-9]{0,3}[1-9]{3}[0-9]{3}[0-9]{4}$";
+			String data="+918527880902";
+			rm.execute(data, ptr);
+			break;
 		}
-		
-		
-/*		VariableScope vs=new VariableScope();
-		vs.setX(100);
-		vs.y=200;
-		vs.func1();
-		VariableScope vs2 = new VariableScope();
-		vs2.setX(500);
-		vs2.func1();
-		VariableScope.y=1000;
-		vs2.func1();
-*/
+
 	}
 }

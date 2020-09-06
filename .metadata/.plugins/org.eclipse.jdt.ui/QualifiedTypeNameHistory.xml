@@ -14,8 +14,17 @@
 <fullyQualifiedTypeName name="simple.MultiPipe"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.sym"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="simple.student"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Aman.simple.student"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="Aman.simple.School"/>
+<fullyQualifiedTypeName name="Aman.simple.Course"/>
+<fullyQualifiedTypeName name="Aman.simple.Student"/>
+<fullyQualifiedTypeName name="Aman.simple.RegexMatches"/>
 </qualifiedTypeNameHistroy>
