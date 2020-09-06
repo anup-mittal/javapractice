@@ -14,7 +14,7 @@ public class EnhancedForLoop {
 	{
 		for(String x : this.names)
 		{
-			System.out.println(x);
+			System.out.println(x); // comment
 		}
 		
 	}
