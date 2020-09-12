@@ -187,6 +187,10 @@ public class Main {
 			}
 			
 			break;
+		case 12:
+			Minfunction mn = new Minfunction();
+			mn.minfunction(55,60);
+			break;
 		}
 
 	}
