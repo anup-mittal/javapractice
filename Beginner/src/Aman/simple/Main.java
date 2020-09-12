@@ -165,26 +165,23 @@ public class Main {
 			break;
 		case 11:
 			Division dv = new Division();
-			try{
-				FileInputStream in = new FileInputStream("c:/test/input1.txt");
-			}
-			catch(FileNotFoundException e)
-			{
-				System.out.println("file does not exist on this system");
-			}
 
 			try {
+				System.out.println("Before divide");
 				dv.divide(10, 0);
+				System.out.println("After divide");
 			}
 			catch(ArithmeticException e)
 			{
 				System.out.println("Arithmetic exception block executed");
 				System.out.println(e);
+				throw e;
 			}
 			finally
 			{
 				System.out.println("I am getting executed always");
 			}
+			System.out.println("After try catch finally block");
 			
 			break;
 		case 12:
@@ -192,6 +189,5 @@ public class Main {
 			mn.minfunction(55,60);
 			break;
 		}
-
 	}
 }
