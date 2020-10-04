@@ -1,6 +1,7 @@
 package myCollections;
 
 import java.util.*;
+import java.util.Map.Entry;
 
 public class MyHashMap {
 
@@ -15,10 +16,24 @@ public class MyHashMap {
 		
 		System.out.println(m);
 		
-		m.put("one", 11);
 		m.putIfAbsent("six", 6);
 		
-		System.out.println(m);
+		System.out.println(m.values());
+		
+//		Set<Map.Entry<String, Integer>> mSet = m.entrySet();
+//		Iterator<Map.Entry<String, Integer>> i = mSet.iterator();
+//		while(i.hasNext())
+//		{
+//			Map.Entry<String, Integer> e = i.next();
+//			System.out.println(e.getKey() + "=" + e.getValue());
+//		}
+		
+		for(Map.Entry<String, Integer> e : m.entrySet())
+		{
+			System.out.println(e.getKey() + "=" + e.getValue());
+		}
+		
+		m.remove("one", 1);
 	}
 
 }
